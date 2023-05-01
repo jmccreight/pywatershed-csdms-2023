@@ -5,7 +5,8 @@ channels:
   - pyviz
   - bioconda
 dependencies:
-  - epiweeks  
+  - epiweeks
+  - hydrofunctions
   - netCDF4
   - networkx
   - numpy
@@ -28,6 +29,7 @@ dependencies:
   - git
   - ipython
   - jupyter
+  - jupyter-black
   - jupyterlab
   - nbconvert
   - jupyter_contrib_nbextensions
@@ -44,3 +46,4 @@ dependencies:
       - modflow-devtools
       - git+https://github.com/pydata/xarray.git
       - git+https://github.com/EC-USGS/pywatershed
+      - modflowapi
