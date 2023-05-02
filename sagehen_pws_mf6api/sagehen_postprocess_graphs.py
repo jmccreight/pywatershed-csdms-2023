@@ -99,7 +99,7 @@ d2sec = 60.0 * 60.0 * 24.0
 # sagehenStreamFlow.rename(columns={"USGS:10343500:00060:00003": site_name}, inplace=True)
 # sagehenStreamFlow.to_csv("sagehen_observed_streamflow.nc")
 
-sagehenStreamFlow = pd.read_csv("sagehen_observed_streamflow.nc")
+sagehenStreamFlow = pd.read_csv("sagehen_observed_streamflow.csv")
 sagehenStreamFlow["datetimeUTC"] = pd.to_datetime(sagehenStreamFlow["datetimeUTC"])
 sagehenStreamFlow = sagehenStreamFlow.set_index("datetimeUTC")
 
