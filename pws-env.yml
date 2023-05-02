@@ -6,7 +6,6 @@ channels:
   - bioconda
 dependencies:
   - epiweeks
-  - hydrofunctions
   - netCDF4
   - networkx
   - numpy
