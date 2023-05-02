@@ -1,4 +1,10 @@
-model_runs
 *~
 __pycache__
 .ipynb_checkpoints
+
+process_models/runs/
+
+sagehen_pws_mf6api/figures/
+sagehen_pws_mf6api/sagehenmodel/mfsim.lst
+sagehen_pws_mf6api/sagehenmodel/mfsim.stdout
+sagehen_pws_mf6api/sagehenmodel/output/
