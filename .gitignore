@@ -2,7 +2,7 @@
 __pycache__
 .ipynb_checkpoints
 
-process_models/runs/
+process_models/model_runs/
 
 sagehen_pws_mf6api/figures/
 sagehen_pws_mf6api/sagehenmodel/mfsim.lst
