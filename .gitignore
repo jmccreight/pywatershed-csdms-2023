@@ -3,8 +3,11 @@ __pycache__
 .ipynb_checkpoints
 
 process_models/model_runs/
+process_models/pynhm_gis.zip
+process_models/pywatershed_gis/
 
 sagehen_pws_mf6api/figures/
 sagehen_pws_mf6api/sagehenmodel/mfsim.lst
 sagehen_pws_mf6api/sagehenmodel/mfsim.stdout
 sagehen_pws_mf6api/sagehenmodel/output/
+
