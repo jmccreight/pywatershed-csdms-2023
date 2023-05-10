@@ -18,10 +18,10 @@ conda env create -f environment.yml
 ```
 which is described [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) in more detail.
 
-### [01_process_models.ipynb](https://github.com/jmccreight/pywatershed-csdms-2023/blob/main/01_process_models.ipynb)   
+### 01_process_models.ipynb: [github](https://github.com/jmccreight/pywatershed-csdms-2023/blob/main/01_process_models.ipynb) | [nbviewer](https://nbviewer.org/github/jmccreight/pywatershed-csdms-2023/blob/main/01_process_models.ipynb)  
 This jupyter notebook with its accompanying directory `process_models/` demonstrates how to construct, run, and probe a version of the National Hydrologic Model and its submodels in pywatershed.
 
-### [02_sagehen_pws_mf6api.ipynb](https://github.com/jmccreight/pywatershed-csdms-2023/blob/main/02_sagehen_pws_mf6api.ipynb)   
+### 02_sagehen_pws_mf6api.ipynb: [github](https://github.com/jmccreight/pywatershed-csdms-2023/blob/main/02_sagehen_pws_mf6api.ipynb) | [nbviewer](https://nbviewer.org/github/jmccreight/pywatershed-csdms-2023/blob/main/02_sagehen_pws_mf6api.ipynb)   
 This jupyter notebook with its accompanying directory `sagehen_pws_mf6api/` demonstrates how to couple pywatershed to MODFLOW 6 via its BMI interface, resulting in a NHM-driven surface water - groundwater flow model.
 
 
