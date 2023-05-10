@@ -86,13 +86,13 @@ d2sec = 60.0 * 60.0 * 24.0
 # hydrofunctions looks like it needs a tune up
 # I'll just stash the data locally
 
-# start = "1980-10-01"
-# start_dt = datetime.datetime.strptime(start, "%Y-%m-%d")
-# end_dt = start_dt + datetime.timedelta(days=ndays - 1)
-# end = end_dt.strftime("%Y-%m-%d")
-# start_dt, end_dt, start, end
-# site = "10343500"
-# site_name = "Site {}".format(site)
+start = "1980-10-01"
+start_dt = datetime.datetime.strptime(start, "%Y-%m-%d")
+end_dt = start_dt + datetime.timedelta(days=ndays - 1)
+end = end_dt.strftime("%Y-%m-%d")
+start_dt, end_dt, start, end
+site = "10343500"
+site_name = "Site {}".format(site)
 # sagehen = hf.NWIS(site, "dv", start, end)
 # sagehen
 # sagehenStreamFlow = (sagehen.df()["USGS:10343500:00060:00003"] / (m2ft**3)).to_frame()
