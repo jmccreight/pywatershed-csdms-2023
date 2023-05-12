@@ -1,7 +1,7 @@
 # pywatershed-csdms-2023
 
-The enclosed notebooks are EPubs for the May 2023 CSDMS conference. 
-The goal of this repository is to demonstrate how to use the `pywatershed` package and highlight some of its applications.
+The enclosed notebooks are EPubs for the [May 2023 CSDMS conference](https://csdms.colorado.edu/wiki/Form:Annualmeeting2023). 
+The goal of this repository is to demonstrate how to use the `pywatershed` package for hydrologic modeling and highlight some of its applications.
 
 ## Contents description
 
@@ -11,12 +11,15 @@ This overview file.
 ### `LICENSE`
 The license applied to this work.
 
-### `pws-env.yml`
-The conda environment file that supports all notebooks in this repository. Conda is required to install as follows 
+### `env/`
+Conda/mamba environment files that support the notebooks in this repository. Conda (or mamba) is required to install the environment. The `pws-env.yml` environment works as of May 2023. However it may become outdated and it can take a very long time to install using conda. For that reason there are `pws-env-frozen-<platform>-<arch>.yml` files which should install much more quickly in conda. These have specific instructions for conda installation at the top of the individual files, wher you choose the `env_name` you want for a given `env_file`:
 ```
-conda env create -f environment.yml
+$ conda remove -y --name <env_name> --all  # if it exists
+$ conda create -y --name <env_name>
+$ conda env update --name <env_name> --file <env_file>.yml
 ```
-which is described [here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) in more detail.
+Generally, solving these environments was much quicker using mamba than conda, but doing so can be somewhat unclear as mamba is newer and still under development. 
+
 
 ### 01_process_models.ipynb: [github](https://github.com/jmccreight/pywatershed-csdms-2023/blob/main/01_process_models.ipynb) | [nbviewer](https://nbviewer.org/github/jmccreight/pywatershed-csdms-2023/blob/main/01_process_models.ipynb)  
 This jupyter notebook with its accompanying directory `process_models/` demonstrates how to construct, run, and probe a version of the National Hydrologic Model and its submodels in pywatershed.
