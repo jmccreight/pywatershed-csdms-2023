@@ -28,6 +28,8 @@ dependencies:
   - bash_kernel
   - git
   - ipython
+  - black
+  - jupyter-black
   - nbconvert
   - jupyter_contrib_nbextensions
   - nb_conda_kernels
@@ -35,7 +37,6 @@ dependencies:
   - shapely<2.0.0
   - pip:
       - click != 8.1.0
-      - black
       - isort
       - flake8
       - pylint
