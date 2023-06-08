@@ -1,7 +1,7 @@
 # pywatershed-csdms-2023
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jmccreight/pywatershed-csdms-2023/main)
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jmccreight/pywatershed-csdms-2023/main)  
+[WholeTale](https://dashboard.wholetale.org/run/646e39eaf6074a2c54975f70)
 
 
 The enclosed notebooks are EPubs for the [May 2023 CSDMS conference](https://csdms.colorado.edu/wiki/Form:Annualmeeting2023). 
