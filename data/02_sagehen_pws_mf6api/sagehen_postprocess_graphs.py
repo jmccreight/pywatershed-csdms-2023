@@ -55,7 +55,7 @@ gwf.modelgrid.shape, gwf.modelgrid.nnodes
 fpth = root_dir / "sagehenmodel/output/pywatershed_output.npz"
 prms_out = np.load(fpth)
 # #### Get prms output times
-idx0 = 365  # Throw out data before this time step
+idx0 = 730 # 365  # Throw out data before this time step
 times = prms_out["time"]
 ndays = times.shape[0]
 print("Number of PRMS days to process {}".format(ndays))

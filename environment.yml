@@ -1,4 +1,4 @@
-name: pyws-csdms
+name: pws-csdms
 channels:
   - conda-forge
   - nodefaults
@@ -28,9 +28,6 @@ dependencies:
   - bash_kernel
   - git
   - ipython
-  - jupyter
-  - jupyter-black
-  - jupyterlab
   - nbconvert
   - jupyter_contrib_nbextensions
   - nb_conda_kernels

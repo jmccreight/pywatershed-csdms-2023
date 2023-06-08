@@ -1,7 +1,7 @@
 # pywatershed-csdms-2023
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jmccreight/pywatershed-csdms-2023/main)  
-[WholeTale](https://dashboard.wholetale.org/run/646e39eaf6074a2c54975f70)
+[_Launch in WholeTale_](https://dashboard.wholetale.org/run/646e39eaf6074a2c54975f70)
 
 
 The enclosed notebooks are EPubs for the [May 2023 CSDMS conference](https://csdms.colorado.edu/wiki/Form:Annualmeeting2023). 
@@ -14,6 +14,9 @@ This overview file.
 
 ### `LICENSE`
 The license applied to this work.
+
+### `environment.yml`
+This is the environment file used by Binder (mybinder.org) and WholeTale (wholetale.org). It does not include jupyter dependencies you would need locally. Please see `env/` (next section) for establishing environments locally.
 
 ### `env/`
 Conda/mamba environment files that support the notebooks in this repository. Conda (or mamba) is required to install the environment. The `pws-env.yml` environment works as of May 2023. However it may become outdated and it can take a very long time to install using conda. For that reason there are `pws-env-frozen-<platform>-<arch>.yml` files which should install much more quickly in conda. These have specific instructions for conda installation at the top of the individual files, wher you choose the `env_name` you want for a given `env_file`:
