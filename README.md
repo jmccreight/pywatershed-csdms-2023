@@ -1,5 +1,9 @@
 # pywatershed-csdms-2023
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jmccreight/pywatershed-csdms-2023/main)
+
+
+
 The enclosed notebooks are EPubs for the [May 2023 CSDMS conference](https://csdms.colorado.edu/wiki/Form:Annualmeeting2023). 
 The goal of this repository is to demonstrate how to use the `pywatershed` package for hydrologic modeling and highlight some of its applications.
 
