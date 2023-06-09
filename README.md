@@ -1,7 +1,7 @@
 # pywatershed-csdms-2023
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jmccreight/pywatershed-csdms-2023/main)  
-[![WholeTale](https://camo.githubusercontent.com/bf7d995d8cbf60736ea0fed33d5fd8b87ab1e838af6c66e75a8b8f5859baa3b4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52756e253230696e2d57686f6c6525323054616c652d626c7565)](https://dashboard.wholetale.org/run/646e39eaf6074a2c54975f70)
+[![WholeTale](https://camo.githubusercontent.com/bf7d995d8cbf60736ea0fed33d5fd8b87ab1e838af6c66e75a8b8f5859baa3b4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52756e253230696e2d57686f6c6525323054616c652d626c7565)](https://dashboard.wholetale.org/run/64825bb807e85c2f73afe360?tab=metadata)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jmccreight/pywatershed-csdms-2023/main)
 
 
 The enclosed notebooks are EPubs for the [May 2023 CSDMS conference](https://csdms.colorado.edu/wiki/Form:Annualmeeting2023). 
